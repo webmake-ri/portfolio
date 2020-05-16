@@ -742,7 +742,7 @@ form button{
 		-ms-border-radius: 50%;
 		-webkit-border-radius: 50%;
 		-moz-border-radius: 50%;
-	perspective: 1000px;
+	perspective: 200px;
 }
 .cssload-inner {
 	position: absolute;
