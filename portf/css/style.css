@@ -732,6 +732,11 @@ form button{
 	left: calc(50% - 60px);
 	width: 120px;
 	height: 120px;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
 	border-radius: 50%;
 		-o-border-radius: 50%;
 		-ms-border-radius: 50%;
