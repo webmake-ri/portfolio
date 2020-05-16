@@ -443,9 +443,6 @@ header.sticky {
 	font-size: 1.1rem;
 	color: #706587;
 }
-
-
-
 .contact{
 	display: -webkit-flex;
 	display: -moz-flex;
@@ -464,7 +461,6 @@ header.sticky {
 	-o-flex-direction: column;
 	flex-direction: column;
 }
-
 .form{
 	margin-top: 2%;
 	display: -webkit-flex;
@@ -610,11 +606,18 @@ form button{
 	background-color: #151515;
 	-ms-align-items: center;
 	align-items: center;
-	-webkit-flex-direction: column;
-	-moz-flex-direction: column;
-	-ms-flex-direction: column;
-	-o-flex-direction: column;
-	flex-direction: column;
+	justify-content: center;
+
+}
+.footer-wrapper{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	width: 45%;
+	height: 70%;
+	justify-content: space-between;
 }
 .footer-section{
 	display: -webkit-flex;
@@ -622,10 +625,108 @@ form button{
 	display: -ms-flex;
 	display: -o-flex;
 	display: flex;
-	width: 80%;
+	text-align: left;
+	-ms-align-items: left;
+	align-items: left;
+	-webkit-flex-direction: column;
+	-moz-flex-direction: column;
+	-ms-flex-direction: column;
+	-o-flex-direction: column;
+	flex-direction: column;
+	width: 25%;
+}
+.footer-section-text{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	-webkit-flex-direction: column;
+	-moz-flex-direction: column;
+	-ms-flex-direction: column;
+	-o-flex-direction: column;
+	flex-direction: column;
+	margin-top: 15px;
 	height: 80%;
 }
-
+.footer-section-header p{
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 1.2rem;
+	color: #FFFFFF;
+	text-align: left;
+}
+.footer-section span{
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 1rem;
+	color: #A39EAC;
+}
+.footer-section ul{
+	list-style: none;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	height: 100%;
+	-webkit-flex-direction: column;
+	-moz-flex-direction: column;
+	-ms-flex-direction: column;
+	-o-flex-direction: column;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.footer-section a{
+	text-decoration: none;
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 1rem;
+	color: #A39EAC;
+	border-bottom: solid 1px #A39EAC;
+}
+.footer-section-text-wrapper{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	-webkit-flex-direction: column;
+	-moz-flex-direction: column;
+	-ms-flex-direction: column;
+	-o-flex-direction: column;
+	flex-direction: column;
+	justify-content: space-between;
+	height: 100%;
+	width: 100%;
+}
+.f-s-t-w-r{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	-ms-align-items: center;
+	align-items: center;
+	height: 20%;
+}
+.f-s-t-w-r img{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;	
+	width: 10%;
+}
+.f-s-t-w-r p{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	padding: 0 0 0 10%;
+	width: 80%;
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 1rem;
+	color: #A39EAC;
+}
 .cssload-loader {
 	position: relative;
 	left: calc(50% - 60px);
@@ -636,7 +737,7 @@ form button{
 		-ms-border-radius: 50%;
 		-webkit-border-radius: 50%;
 		-moz-border-radius: 50%;
-	perspective: 1500px;
+	perspective: 200px;
 }
 .cssload-inner {
 	position: absolute;

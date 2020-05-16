@@ -3,6 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/media.css">
 	<link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js">
@@ -204,30 +205,71 @@
 		</div>
 	</div>
 	<div class="footer">
-		<div class="footer-section">
-			<div class="footer-section-header">
-				<h3>
-					Общая информация
-				</h3>
+		<div class="footer-wrapper">
+			<div class="footer-section">
+				<div class="footer-section-header">
+					<p>
+						Общая информация
+					</p>
+				</div>
+				<div class="footer-section-text">
+					<span>
+						Сайт-портфолио, где вы можете заказать качественную разработку вашего сайта. Принимаются заказы на изменение дизайна сайта, устранение ошибок, и разработку отдельных страниц.
+					</span>					
+				</div>
 			</div>
-		</div>
-		<div class="footer-section">
-			<div class="footer-section-header">
-				<h3>
-					Навигация
-				</h3>
+			<div class="footer-section">
+				<div class="footer-section-header">
+					<p>
+						Навигация
+					</p>
+				</div>
+				<div class="footer-section-text">
+					<ul>
+						<li><a href="#1">Главная</a></li>
+						<li><a href="#2">Обо мне</a></li>
+						<li><a href="#3">Портфолио</a></li>
+						<li><a href="#4">Контакты</a></li>
+					</ul>
+				</div>
 			</div>
-		</div>
-		<div class="footer-section">
-			<div class="footer-section-header">
-				<h3>
-					Контакты
-				</h3>
+			<div class="footer-section">
+				<div class="footer-section-header">
+					<p>
+						Контакты
+					</p>
+				</div>
+				<div class="footer-section-text cont">
+					<div class="footer-section-text-wrapper">
+						<div class="f-s-t-w-r">
+							<img src="img/mail.svg" alt="">
+							<p>
+								webmake.ri.2020@gmail.com
+							</p>
+						</div>
+						<div class="f-s-t-w-r">	
+							<img src="img/vk.svg" alt="">
+							<p>
+								vk.com/webmake_ri
+							</p>
+						</div>
+						<div class="f-s-t-w-r">
+							<img src="img/telegram.svg" alt="">
+							<p>
+								t.me/webmake_ri
+							</p>
+						</div>
+						<div class="f-s-t-w-r">
+							<img src="img/skype.svg" alt="">
+							<p>
+								live:efa6933438f311e9
+							</p>	
+						</div>	
+					</div>
+				</div>
 			</div>
 		</div>
 	</div>
-	
-
 	<div id="preloader_malc">
 		<div>
 			<div class="cssload-loader">
@@ -253,7 +295,7 @@
 			}, 400);
 		};
 	</script>
-	<script >
+	<script>
 		$(window).scroll(function() {
 			if ($(this).scrollTop() > 100){
 				$('header').addClass("sticky");
@@ -281,6 +323,6 @@
 	    	return false;
 	  		});
 	});
-	</script> -->
+	</script>
 </body>
 </html>
