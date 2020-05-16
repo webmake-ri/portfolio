@@ -743,8 +743,8 @@ form button{
 .cssload-loader {
 	position: relative;
 	left: calc(50% - 60px);
-	width: 6%;
-	height: 12%;
+	width: 100px;
+	height: 100px;
 	display: -webkit-flex;
 	display: -moz-flex;
 	display: -ms-flex;
