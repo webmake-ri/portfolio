@@ -759,8 +759,8 @@ form button{
 }
 .cssload-inner {
 	position: absolute;
-	width: 100px;
-	height: 100px;
+	width: 150px;
+	height: 150px;
 	box-sizing: border-box;
 		-o-box-sizing: border-box;
 		-ms-box-sizing: border-box;
